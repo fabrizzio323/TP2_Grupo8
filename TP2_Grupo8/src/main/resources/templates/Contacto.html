@@ -2,38 +2,47 @@
 <html lang="es">
 	<head>
 	<meta charset="utf-8">
-		<title>Formulario</title>
+	<link rel="stylesheet" href="../static/css/estilos.css">
+		<title>Formulario de contacto</title>
 		</head>
-		<body>
-			<form style="width: 500px; height: 300px;" action="https://freecatphotoapp.com/submit-cat-photo">
+		<body class="CuerpoContacto">
+			<form id="formularioID" action="https://freecatphotoapp.com/submit-cat-photo">
 			<fieldset>
-			<h2>Contáctenos</h2>
-			<p>
+			<h2 id="ContactID">Contáctenos</h2>
+			<p id="Parrafo1">
 			3915 Av. General Belgrano, 388-4999999<br>
 			Lunes a Viernes: de 9:00 a.m. a 8 p.m.<br>
 			Sábado a Domingo: de 9:00 a.m. a 12:30 p.m.<br>
-			<a href="contactos@mail.com.ar">contactos@mail.com.ar</a><br>
+			<a id="222" href="contactos@mail.com.ar">contactos@mail.com.ar</a><br>
 			</p>
-			<ul>
-				<li><a href="https://www.facebook.com/">Facebook</a>
-				<li><a href="https://twitter.com/">Twitter</a>
-				<li><a href="https://www.instagram.com/">Instagram</a>
-			</ul>	
+			<div id="div1">
+				<div class="linksdecontacto">
+				<ul>
+					<li><a class="linkContacto" href="https://www.facebook.com/">Facebook</a>
+					<li><a class="linkContacto" href="https://twitter.com/">Twitter</a>
+					<li><a class="linkContacto" href="https://www.instagram.com/">Instagram</a>
+				</ul>
+				</div>
+			</div>	
 				<hr>
-				<p>
-					Nombre <input name="nombrePersona" type="text" placeholder="Ingrese su nombre" required><br>
+				<p id="Parrafo2">
+					Nombre <input name="nombrePersona" type="text" placeholder="Ingrese su nombre..." required>
 					<br>
-					Email <input name="emailValido" type="text" placeholder="Ingrese un email válido" required><br>
 					<br>
-					Ciudad <input name="nombreCiudad" type="text" placeholder="Ingrese su ciudad" required><br>
+					Email <input name="emailValido" type="text" placeholder="Ingrese un email válido..." required>
 					<br>
-					Mensaje <textarea cols="48" rows="4"></textarea> 
+					<br>
+					Ciudad <input name="nombreCiudad" type="text" placeholder="Ingrese su ciudad..." required>
+					<br>
+					<br>
+					Mensaje <br><textarea placeholder="Dejenos su mensaje..."></textarea> 
 				</p>
-				<button type="submit">Enviar</button>
+				<button class="boton" type="submit">Enviar</button>
 				<br>
 				<br>
 				<br>
 			</fieldset>
 			</form>
+			<footer>Copyright 2023 - PetShop - Diseñado por Grupo 8 – Jujuy – República Argentina</footer>
 		</body>
 </html>

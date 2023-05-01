@@ -1,9 +1,10 @@
+/* Estilos para el formulario de contacto inicio DEMO*/
+
 * {
 	margin: 0px;
 	padding: 0px;
 }
 
-/* Estilos para el formulario de contacto INICIO*/
 body.CuerpoContacto {
 	 background-image: url(../images/catboop.gif),url(../images/catboop.gif);
 	 background-size: 52% 200%, 52% 200%;
@@ -32,11 +33,15 @@ body.CuerpoContacto {
 	text-align: center;
 }
 
-#div1 > .linksdecontacto > ul {
+p a:link,p a:visited {
+	text-decoration: none;
+}
+
+#div1 ul {
 	list-style: none;
 }
 
-#div1 > .linksdecontacto a:link,#div1 > .linksdecontacto a:visited {
+#div1 a:link,#div1 a:visited {
 	text-decoration: none;
 	font-family: Arial;
 	font-size: 180%;
@@ -52,7 +57,7 @@ body.CuerpoContacto {
 	border-radius: 50%;
 }
 
-#div1 > .linksdecontacto a:hover,#div1 > .linksdecontacto a:active {
+#div1 a:hover,a:active {
 	border: 3px solid #6600cc;
 	color:#6600cc;
 	background-color:#00ff00;
@@ -119,7 +124,6 @@ textarea {
 	padding: 6px 6px;
 	margin-bottom: 3px; 
 }
-
 .CuerpoContacto footer {
   position: absolute;
   bottom: 0;
