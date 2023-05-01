@@ -129,3 +129,49 @@ textarea {
 }
 
 /* Estilos para el formulario de contacto FIN*/
+
+/*Inicio de codigo fabrizio*/
+.cuerpo{
+	background-image:url("../images/violet.gif");
+	
+}
+.titulo{
+	background:#04f89a;
+	text-align:center;
+	margin-top:100px;
+    margin:auto;
+    margin-top:20px;
+	padding:10px;
+	width:789px;
+}
+tr,td{
+	 padding:9px;	
+}
+.dia{
+    background-color:#a2e873;
+}
+.filas{
+	background-color:#fff7a3;
+}
+.tabla{
+	border-collapse:collapse;
+	margin:10px 225px 10px 240px;
+	outline: 5px #ffffff solid;
+}
+.pie_de_pagina{
+	font-family:italy;
+	background-color:#04f89a;
+	text-align:center;
+	padding:5px;
+	margin:auto;
+	width:800px;
+	font-family:impact;
+	
+	}
+.paseo{
+	width:230px;
+	height:230px;
+	margin-left:500px;
+}
+
+/*FIn de codigo fabrizio*/
