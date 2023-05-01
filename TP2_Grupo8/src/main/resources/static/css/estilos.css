@@ -176,3 +176,236 @@ textarea {
 }
 
 /*FIn de codigo fabrizio*/
+
+
+
+/*index -Irene*/
+/*Esta clase ".H1" la use tanto para el encabezado del index como el del sucursales -Irene*/
+.H1{
+    line-height: 200%;
+    font-family: Georgia;
+    font-size:40px;
+}
+.BodyIndex{
+    background-image: url(../images/giphy.gif);
+    }
+ /*Esta clase ".Encabezado" la use tanto para el encabezado del index como el del sucursales -Irene*/
+.Encabezado{
+	background-color:#e6c6ff;
+	width:700px;
+    margin:auto;
+    margin-bottom:20px;
+    text-align:center;
+    outline: 1px White solid ;
+      } 
+/*Esta clase ".Links" la use tanto en el index como en el Productos -Siomara*/
+.Links{
+	border:50px;
+	text-align:center;
+   }  
+ /*Esta clase ".Links li" la use en el index como en Productos -Siomara*/  
+.Links li{
+	padding:10px;
+	display: inline;
+    font-size:16px;
+    font-family:cursive;
+    outline: 4px ridge rgba(170, 50, 220, .6);
+    border-radius: 1rem;
+    background-color:#e6c6ff;
+     }
+/*Esta clase ".A" la use tanto en el index como en el Productos -Siomara*/
+.A:link, .A:visited {
+    text-decoration: none;
+    color:black;
+                   }
+   
+.H2{
+	outline: 1px White solid ;
+	font-size:30px;
+    text-align:center;
+	background-color:#e6c6ff;
+	width:700px;
+    margin:auto;
+	
+} 
+.H3{
+	font-family:cursive;
+	background-color:#e6c6ff;
+    text-align:center;
+    margin:auto;
+    min-width:500px;
+    width:700px;
+    margin:auto;
+    outline: 1px White solid ;
+}  
+.H5{
+	outline: 1px White solid ;
+    font-size:20px;
+    font-family:Georgia;
+    background-color:#e6c6ff;
+    width:700px;
+    margin:auto;
+}  
+   
+.Sectionindex{
+	outline: 1px White solid ;
+    width:700px;
+    margin:auto;
+	margin-top:20px;
+	text-align:center;
+	background-color:#e6c6ff;
+}
+.Articles{
+    font-size:20px;
+}
+.Evento{
+	text-align:center;	
+}
+.Img{
+	width: 300px;
+    height: 300px;
+}
+/*Esta clase ".Parrafo" la use tanto para el encabezado del index como el del sucursales -Irene*/
+.Parrafo{
+    width:700px;
+    margin:auto;
+    text-align:center;	
+    background-color:#e6c6ff;
+}
+/*Fin index -Irene*/
+/*Inicio Sucursales -Irene*/
+
+.BodySucursales{
+    background-image: url(../images/giphy.gif);
+    }
+
+.Div{
+	text-align:center;
+	background-color: #e6c6ff;
+	width: 700px;
+    margin: auto;
+    outline: 1px White solid ;
+    }
+.TituloFinal{
+	outline: 1px White solid ;
+	width:700px;
+    margin:auto;
+	text-align:center;
+	background-color:#e6c6ff;
+	font-size:40px;
+	}
+.ImgS{
+	height: 50px;
+}
+.ImgP{
+	height:300px;
+}
+.ImgFinal{
+	width:200px;
+    height: 200px;
+    margin-left:875px;
+    margin-right:875px;
+    }
+
+/*Fin sucursales -irene*/
+
+
+/*parte productos - css - siomara*/	
+	.fondo{
+		background-image: url(../images/giphy.gif);
+	}
+	
+	.img{
+		width: 350px;
+		height:450px;
+	}
+		
+	.img5{
+		width: 280px;
+		height: 290px;
+		
+	}
+		
+	.img2{
+		width: 250px;
+		height:350px;		
+	}
+		
+	.img3{
+		width: 250px;
+		height:250px;		
+	}
+		
+	.img4{
+		width: 360px;
+		height:320px;		
+	}
+	
+/* cuerpo general */
+	
+	.divp, .sention1p, .section2p, .section3p, .section4p, .section5p, .section6p, .section7p, .section8p, .section9p{
+		text-align: center;
+		width: 70%;
+		background-color: white;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	
+	.georgia{
+		font-family: Georgia;
+		padding:auto;
+		text-shadow: 1px 1px white, -1px -1px #333;
+		text-align:center;
+	}
+	
+	.copp{
+		text-align:center;
+		color: #642742;
+	}
+	
+/* menu principal */
+
+	
+	hr{
+		height:4px;
+		margin-left:25%;
+		margin-right:25%;	
+		background-color: #d5afb4;
+	}
+
+	
+	.georgia0{
+		text-align:center;
+		font-family: Georgia;
+		padding:auto;
+		text-shadow: 1px 1px black, -1px -1px #333;
+		color: #e6c6ff;
+	}
+	
+	.section0p, .optionmenu{
+		text-align: center;
+		
+	}
+	
+	.Links{
+	border:50px;
+	text-align:center;
+    }   
+     
+	.Links li{
+	padding:10px;
+	display: inline;
+    font-size:16px;
+    font-family:cursive;
+    outline: 4px ridge rgba(170, 50, 220, .6);
+    border-radius: 1rem;
+    background-color:#e6c6ff;
+    }
+
+	.A:link, .A:visited {
+    text-decoration: none;
+    color:black;
+                   }
+	
+	/* fin parte productos - css - siomara*/
