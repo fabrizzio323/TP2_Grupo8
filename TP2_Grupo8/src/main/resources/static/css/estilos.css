@@ -144,7 +144,7 @@ textarea {
 	padding:10px;
 	width:789px;
 }
-tr,td{
+.Td{
 	 padding:9px;	
 }
 .dia{
@@ -152,6 +152,7 @@ tr,td{
 }
 .filas{
 	background-color:#fff7a3;
+	padding:9px;	
 }
 .tabla{
 	border-collapse:collapse;
